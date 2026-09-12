@@ -11,7 +11,10 @@ import SwiftUI
 struct DemoRetoSwiftUI452App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            RegistroUsuario()
         }
     }
 }
+
+
