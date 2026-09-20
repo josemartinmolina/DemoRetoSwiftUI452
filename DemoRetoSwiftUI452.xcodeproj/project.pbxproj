@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D1217D60305F6C3000BA5DD8 /* .gitignorte in Sources */ = {isa = PBXBuildFile; fileRef = D1217D5F305F6C2A00BA5DD8 /* .gitignorte */; };
+		D1217D62305F6C9B00BA5DD8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D1217D61305F6C9600BA5DD8 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D11565923054DF560099B224 /* DemoRetoSwiftUI452.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoRetoSwiftUI452.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1217D5F305F6C2A00BA5DD8 /* .gitignorte */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignorte; sourceTree = "<group>"; };
+		D1217D61305F6C9600BA5DD8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +39,8 @@
 		D11565893054DF560099B224 = {
 			isa = PBXGroup;
 			children = (
+				D1217D61305F6C9600BA5DD8 /* README.md */,
+				D1217D5F305F6C2A00BA5DD8 /* .gitignorte */,
 				D11565943054DF560099B224 /* DemoRetoSwiftUI452 */,
 				D11565933054DF560099B224 /* Products */,
 			);
@@ -119,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1217D62305F6C9B00BA5DD8 /* README.md in Sources */,
+				D1217D60305F6C3000BA5DD8 /* .gitignorte in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
