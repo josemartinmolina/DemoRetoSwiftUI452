@@ -9,10 +9,17 @@ import SwiftUI
 
 @main
 struct DemoRetoSwiftUI452App: App {
+    @AppStorage("isLoggedIn") private var isLoggedIn = false
     var body: some Scene {
         WindowGroup {
             //ContentView()
-            RegistroUsuario()
+            //RegistroUsuario()
+            if isLoggedIn{
+                HomeScreen()
+            }else{
+                NavigationStack { Login()}
+            }
+           
         }
     }
 }

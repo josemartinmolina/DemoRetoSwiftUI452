@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct RegistroUsuario: View {
+    @Environment(\.authController) var controladorRegistro
     @State var usuario = Usuario()
     @State var erroresFormulario:[String] = []
+    func registroUsuario() async {
+        do{
+            let response = try await controladorRegistro.registerUser(email: usuario.correo, password: usuario.contraseña)
+            print("Usuario registrado \(response)")
+        }
+        catch {
+            print("Error al registar \(error)")
+        }
+    }
     var body: some View {
         VStack{
             Text("Registro de Usuario")
@@ -21,6 +31,11 @@ struct RegistroUsuario: View {
                 SecureField("Contraseña",text:$usuario.contraseña)
                 Button("Registrar"){
                     erroresFormulario = usuario.validaDatos()
+                    if erroresFormulario.isEmpty{
+                        Task{
+                            await registroUsuario()
+                        }
+                    }
                     
                 }
             }
