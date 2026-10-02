@@ -14,10 +14,9 @@ struct HomeScreen: View {
         NavigationStack{
             TabView{
                 Tab{
-                    NavigationStack{
-                        Text("Página de listado de Incidencias")
+                    IncidenciasListView()
                         
-                    }
+                    
                 }label:{
                     Label("Incidencias", systemImage:"house.and.flag")
                 }
@@ -28,6 +27,11 @@ struct HomeScreen: View {
                     }
                 }label:{
                     Label("Estadisticas", systemImage:"list.dash.header.rectangle")
+                }
+                Tab{
+                    ManejoFoto()
+                }label:{
+                    Label("Foto", systemImage:"camera")
                 }
                 Tab{
                     NavigationStack{

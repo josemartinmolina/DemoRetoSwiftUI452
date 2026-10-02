@@ -17,9 +17,22 @@
 		D1217D61305F6C9600BA5DD8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D1D55464307026C1005934DB /* Exceptions for "DemoRetoSwiftUI452" folder in "DemoRetoSwiftUI452" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D11565913054DF560099B224 /* DemoRetoSwiftUI452 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		D11565943054DF560099B224 /* DemoRetoSwiftUI452 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D1D55464307026C1005934DB /* Exceptions for "DemoRetoSwiftUI452" folder in "DemoRetoSwiftUI452" target */,
+			);
 			path = DemoRetoSwiftUI452;
 			sourceTree = "<group>";
 		};
@@ -264,6 +277,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DemoRetoSwiftUI452/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -295,6 +309,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DemoRetoSwiftUI452/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
