@@ -58,7 +58,7 @@ struct ManejoFoto: View {
                     .foregroundColor(.gray)
             }
             
-            Spacer() //llena el espacio faltante del VStack
+            //Spacer() //llena el espacio faltante del VStack
             
             // Preview de la imagen
             Group {

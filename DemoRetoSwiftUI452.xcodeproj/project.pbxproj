@@ -11,10 +11,29 @@
 		D1217D62305F6C9B00BA5DD8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D1217D61305F6C9600BA5DD8 /* README.md */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D1932DE63071D7B000B167A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D115658A3054DF560099B224 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D11565913054DF560099B224;
+			remoteInfo = DemoRetoSwiftUI452;
+		};
+		D1932DF33071D89F00B167A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D115658A3054DF560099B224 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D11565913054DF560099B224;
+			remoteInfo = DemoRetoSwiftUI452;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		D11565923054DF560099B224 /* DemoRetoSwiftUI452.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoRetoSwiftUI452.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1217D5F305F6C2A00BA5DD8 /* .gitignorte */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignorte; sourceTree = "<group>"; };
 		D1217D61305F6C9600BA5DD8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D1932DE23071D7B000B167A2 /* DemaReto451_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemaReto451_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1932DEF3071D89F00B167A2 /* DemoRetoSwiftUI452Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoRetoSwiftUI452Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -36,10 +55,29 @@
 			path = DemoRetoSwiftUI452;
 			sourceTree = "<group>";
 		};
+		D1932DF03071D89F00B167A2 /* DemoRetoSwiftUI452Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DemoRetoSwiftUI452Tests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D115658F3054DF560099B224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1932DDF3071D7B000B167A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1932DEC3071D89F00B167A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -55,6 +93,7 @@
 				D1217D61305F6C9600BA5DD8 /* README.md */,
 				D1217D5F305F6C2A00BA5DD8 /* .gitignorte */,
 				D11565943054DF560099B224 /* DemoRetoSwiftUI452 */,
+				D1932DF03071D89F00B167A2 /* DemoRetoSwiftUI452Tests */,
 				D11565933054DF560099B224 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				D11565923054DF560099B224 /* DemoRetoSwiftUI452.app */,
+				D1932DE23071D7B000B167A2 /* DemaReto451_SwiftUITests.xctest */,
+				D1932DEF3071D89F00B167A2 /* DemoRetoSwiftUI452Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,6 +133,49 @@
 			productReference = D11565923054DF560099B224 /* DemoRetoSwiftUI452.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D1932DE13071D7B000B167A2 /* DemaReto451_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1932DEA3071D7B000B167A2 /* Build configuration list for PBXNativeTarget "DemaReto451_SwiftUITests" */;
+			buildPhases = (
+				D1932DDE3071D7B000B167A2 /* Sources */,
+				D1932DDF3071D7B000B167A2 /* Frameworks */,
+				D1932DE03071D7B000B167A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1932DE73071D7B000B167A2 /* PBXTargetDependency */,
+			);
+			name = DemaReto451_SwiftUITests;
+			packageProductDependencies = (
+			);
+			productName = DemaReto451_SwiftUITests;
+			productReference = D1932DE23071D7B000B167A2 /* DemaReto451_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1932DEE3071D89F00B167A2 /* DemoRetoSwiftUI452Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1932DF53071D89F00B167A2 /* Build configuration list for PBXNativeTarget "DemoRetoSwiftUI452Tests" */;
+			buildPhases = (
+				D1932DEB3071D89F00B167A2 /* Sources */,
+				D1932DEC3071D89F00B167A2 /* Frameworks */,
+				D1932DED3071D89F00B167A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1932DF43071D89F00B167A2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D1932DF03071D89F00B167A2 /* DemoRetoSwiftUI452Tests */,
+			);
+			name = DemoRetoSwiftUI452Tests;
+			packageProductDependencies = (
+			);
+			productName = DemoRetoSwiftUI452Tests;
+			productReference = D1932DEF3071D89F00B167A2 /* DemoRetoSwiftUI452Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -104,6 +188,14 @@
 				TargetAttributes = {
 					D11565913054DF560099B224 = {
 						CreatedOnToolsVersion = 26.5;
+					};
+					D1932DE13071D7B000B167A2 = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = D11565913054DF560099B224;
+					};
+					D1932DEE3071D89F00B167A2 = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = D11565913054DF560099B224;
 					};
 				};
 			};
@@ -122,12 +214,28 @@
 			projectRoot = "";
 			targets = (
 				D11565913054DF560099B224 /* DemoRetoSwiftUI452 */,
+				D1932DE13071D7B000B167A2 /* DemaReto451_SwiftUITests */,
+				D1932DEE3071D89F00B167A2 /* DemoRetoSwiftUI452Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D11565903054DF560099B224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1932DE03071D7B000B167A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1932DED3071D89F00B167A2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -146,7 +254,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D1932DDE3071D7B000B167A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1932DEB3071D89F00B167A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1932DE73071D7B000B167A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D11565913054DF560099B224 /* DemoRetoSwiftUI452 */;
+			targetProxy = D1932DE63071D7B000B167A2 /* PBXContainerItemProxy */;
+		};
+		D1932DF43071D89F00B167A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D11565913054DF560099B224 /* DemoRetoSwiftUI452 */;
+			targetProxy = D1932DF33071D89F00B167A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D115659B3054DF570099B224 /* Debug */ = {
@@ -278,6 +413,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DemoRetoSwiftUI452/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -310,6 +446,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DemoRetoSwiftUI452/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -332,6 +469,86 @@
 			};
 			name = Release;
 		};
+		D1932DE83071D7B000B167A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.A012345678.DemaReto451-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoRetoSwiftUI452.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemoRetoSwiftUI452";
+			};
+			name = Debug;
+		};
+		D1932DE93071D7B000B167A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.A012345678.DemaReto451-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoRetoSwiftUI452.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemoRetoSwiftUI452";
+			};
+			name = Release;
+		};
+		D1932DF63071D89F00B167A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.A012345678.DemoRetoSwiftUI452Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoRetoSwiftUI452.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemoRetoSwiftUI452";
+			};
+			name = Debug;
+		};
+		D1932DF73071D89F00B167A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.A012345678.DemoRetoSwiftUI452Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoRetoSwiftUI452.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemoRetoSwiftUI452";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -349,6 +566,24 @@
 			buildConfigurations = (
 				D115659E3054DF570099B224 /* Debug */,
 				D115659F3054DF570099B224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1932DEA3071D7B000B167A2 /* Build configuration list for PBXNativeTarget "DemaReto451_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1932DE83071D7B000B167A2 /* Debug */,
+				D1932DE93071D7B000B167A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1932DF53071D89F00B167A2 /* Build configuration list for PBXNativeTarget "DemoRetoSwiftUI452Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1932DF63071D89F00B167A2 /* Debug */,
+				D1932DF73071D89F00B167A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
